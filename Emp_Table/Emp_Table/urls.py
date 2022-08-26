@@ -26,4 +26,3 @@ urlpatterns = [
     path('Employees/', include('Employee.urls')),# this path forward you to application's url
     
 ]
-
