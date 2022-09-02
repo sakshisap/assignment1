@@ -23,9 +23,6 @@ router = routers.DefaultRouter()
 urlpatterns = [
     path('admin/', admin.site.urls), #this is the path of admin
     
-    path('Employees/', include('Employee.urls')),# this path forward you to application's url
-    
-    
-                             
-       
+    path('Employees/', include('Employee.urls'))# this path forward you to application's url
+           
 ]
